@@ -1,6 +1,6 @@
 # Installation
 ```
-$npm i --save yahoo-finance-module
+npm i --save yahoo-finance-module
 ```
 # Usage
 ```

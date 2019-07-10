@@ -2,7 +2,7 @@ var fetch = require('fetch-retry');
 
 module.exports.historical = async function (data, callback){
 
-    const symbols = data.symbol.isArray ? data.symbol : data.symbol.split(',')
+    const symbols = Array.isArray(data.symbol) ? data.symbol : data.symbol.split(',')
     const from = Date.parse(new Date(data.from)) / 1000
     const to = Date.parse(new Date(data.to)) / 1000
     

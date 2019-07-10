@@ -15,7 +15,8 @@ const fs = require('fs')
 // var to = `${fullDate.year}-${fullDate.month}-${fullDate.day}`
 
 yahooFinance.historical({
-    symbol: 'AAPL,MSFT,AMD',
+    // symbol: 'AAPL,MSFT,AMD',
+    symbol: ['AAPL','MSFT','AMD'],
     from: '2019-06-01',
     to: '2019-06-28'
 }, function (err, data) {
