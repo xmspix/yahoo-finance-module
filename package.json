@@ -1,6 +1,6 @@
 {
   "name": "yahoo-finance-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get yahoo finance historical data",
   "main": "index.js",
   "scripts": {
